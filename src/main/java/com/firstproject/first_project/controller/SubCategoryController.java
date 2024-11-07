@@ -1,6 +1,6 @@
-package com.firstproject.first_project.Controller;
+package com.firstproject.first_project.controller;
 
-import com.firstproject.first_project.Entity.SubCategory;
+import com.firstproject.first_project.model.SubCategory;
 import com.firstproject.first_project.Services.SubCategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

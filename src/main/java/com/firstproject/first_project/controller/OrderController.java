@@ -1,7 +1,7 @@
-package com.firstproject.first_project.Controller;
+package com.firstproject.first_project.controller;
 
 
-import com.firstproject.first_project.Entity.Order;
+import com.firstproject.first_project.model.Order;
 import com.firstproject.first_project.Services.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

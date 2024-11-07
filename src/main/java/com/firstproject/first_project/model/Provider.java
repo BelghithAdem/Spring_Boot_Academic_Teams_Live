@@ -1,4 +1,4 @@
-package com.firstproject.first_project.Entity;
+package com.firstproject.first_project.model;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
@@ -14,15 +14,11 @@ import java.util.List;
 @Data
 @Entity
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class Customer extends User{
-    String adress;
+public class Provider extends User {
+    String matricule;
+    String service;
+    String company;
 
-    String city;
-
-    @OneToMany(mappedBy = "customer", cascade = CascadeType.REMOVE)
-    List<Order> order;
-
-
-
-
+    @OneToMany(mappedBy = "provider", cascade = CascadeType.REMOVE)
+    List<Product> product;
 }

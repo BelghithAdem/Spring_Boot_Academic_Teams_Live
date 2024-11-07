@@ -1,7 +1,7 @@
 package com.firstproject.first_project.Services;
 
 
-import com.firstproject.first_project.Entity.Product;
+import com.firstproject.first_project.model.Product;
 import com.firstproject.first_project.Repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,6 @@
 package com.firstproject.first_project.repository;
 
-import com.firstproject.first_project.Entity.Category;
+import com.firstproject.first_project.model.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

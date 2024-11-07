@@ -1,7 +1,7 @@
 package com.firstproject.first_project.Services;
 
 
-import com.firstproject.first_project.Entity.User;
+import com.firstproject.first_project.model.User;
 import com.firstproject.first_project.Repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

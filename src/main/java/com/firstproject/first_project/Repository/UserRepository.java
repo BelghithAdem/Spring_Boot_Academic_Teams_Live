@@ -1,6 +1,6 @@
 package com.firstproject.first_project.Repository;
 
-import com.firstproject.first_project.Entity.User;
+import com.firstproject.first_project.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

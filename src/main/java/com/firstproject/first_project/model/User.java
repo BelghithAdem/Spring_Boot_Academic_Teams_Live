@@ -1,4 +1,4 @@
-package com.firstproject.first_project.Entity;
+package com.firstproject.first_project.model;
 
 
 import jakarta.persistence.*;

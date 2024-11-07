@@ -1,7 +1,7 @@
 package com.firstproject.first_project.Services;
 
 
-import com.firstproject.first_project.Entity.SubCategory;
+import com.firstproject.first_project.model.SubCategory;
 import com.firstproject.first_project.Repository.SubCategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
